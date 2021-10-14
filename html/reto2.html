@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Reto 2</title>
+</head>
+<body>
+    <div>
+        <h2>Seccion de clientes</h2>
+
+        <button>visualizar registros del clientes</button>   
+        <br/>
+        <br/>
+
+        <h3>Registrar cliente</h3>
+
+        <form action="">
+            <input type="number" id="id" placeholder="id" name="clientId" required>
+            <input type="text" id="name" placeholder="name" name="clientName" required>
+            <input type="email" id="email" placeholder="email" name="clientEmail" required>
+            <input type="number" id="age" placeholder="age" name="ClientAge" required>
+
+            <input type="submit" value="Registrar">
+        </form>
+
+            <div>
+                <!--ir a la seccion al detalle de cada elemento cliente-->
+                <a href='cliente.html'>ver seccion al detalle</a>
+            </div>
+            <br/>
+    </div>
+    <br/>
+    <br/>
+    <div>
+        
+        <h2>Seccion de Mensajes</h2>
+
+        <button>visualizar registros del Mensaje</button>   
+        <br/>
+        <br/>
+
+        <h3>Registrar Mensaje</h3>
+        <form action="">
+            <input type="number" id="idMessage" placeholder="id" name="messageId" required>
+            <input type="text" id="messagetextNuevo" placeholder="message" name="newMessage">
+            <input type="submit" value="Registrar mensaje">
+        </form>
+
+        <div>
+            <!--ir a la seccion al detalle de cada elemento mensaje-->
+            <a href='mensaje.html'>ver seccion al detalle</a>
+        </div>
+        <br/>
+    </div>
+    
+    <br/>
+    <br/>
+
+    <div>
+
+        <h2>Seccion de Bicicleta</h2>
+        
+        <button>visualizar registros del Bicicleta</button>   
+
+        <br/>
+        <br/>
+        <h4>agregar Bicicleta</h4>
+
+        <form action="">
+            <input type="number" id="idbike" placeholder="id" name="bikeId" required>
+            <input type="text" id="brand" placeholder="brand" name="brand" required>
+            <input type="text" id="model" placeholder="model" name="bikeModel" required>
+            <input type="number" id="category_id" placeholder="category" name="bikeCategory">
+            <input type="text" id="namebike" placeholder="name" name="bikeName">
+
+            <input type="submit" value="Registrar Bicicleta">
+
+        </form>
+
+        <div>
+            <!--ir a la seccion al detalle de cada elemento-->
+            <a href='bicicleta.html'>ver seccion al detalle</a>
+        </div>
+        <br/>
+    </div>
+
+
+</body>
+</html>
